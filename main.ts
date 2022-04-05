@@ -8,7 +8,8 @@ basic.showLeds(`
     . # . . .
     # . . . .
     `)
-basic.showString("Hello!")
+basic.showString("Lucky Number")
+basic.showNumber(7)
 basic.forever(function () {
     basic.showLeds(`
         . . . . .
